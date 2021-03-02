@@ -1,0 +1,65 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/tailwind.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Tailwind Start</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="grid grid-cols md:grid-cols-6 gap-4">
+      <h1 class="col-start-2 col-span-4">column</h1>
+      <h1 class="col-start-1 col-end-3">column</h1>
+      <h1>column</h1>
+      <h1>column</h1>
+      <h1>column</h1>
+      <h1 class="col-span-2">column</h1>
+      <h1>column</h1>
+      <h1>column</h1>
+      <h1>column</h1>
+      <h1>column</h1>
+      <h1>column</h1>
+      <h1>column</h1>
+    </div>
+    <div class="h-64 grid grid-rows-3 grid-flow-col gap-4">
+      <h1 class="row-span-3">row</h1>
+      <h1>row</h1>
+      <h1 class="row-start-1 row-end-3">row</h1>
+      <h1 class="col-span-2">row</h1>
+      <h1>row</h1>
+      <h1 class="row-start-2 row-span-2 col-span-2">row</h1>
+    </div>
+    <div class="grid grid-flow-col auto-cols-max">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    <div class="grid grid-flow-row auto-rows-max">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+    </div>
+    <div class="grid gap-5 grid-cols-2">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+    </div>
+    <div class="grid gap-x-9 gap-y-5 grid-cols-3">
+      <div>1</div>
+      <div>2</div>
+      <div>3</div>
+      <div>4</div>
+      <div>5</div>
+      <div>6</div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
